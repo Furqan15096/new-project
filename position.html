@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .main{
+        height: 650px;
+        width: 1345px;
+    }
+    
+    .b1{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(32, 28, 28);
+        margin: 2px;  
+    }
+    .main :nth-child(2){
+        position: relative;
+        left: 230px;
+    }
+    .parent{
+        border: 1px solid rgb(8, 8, 8);
+        height: 400px;
+        width: 400px;
+    }
+    .child{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(82, 3, 3);
+        position: relative;
+        top: 0px;
+        left: 0px;
+        margin: auto;
+    }
+    .child2{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        margin: auto;
+        height: 50px;
+        width: 50px;
+        background-color: rgb(238, 227, 227);
+    }
+    .fixed{
+        height: 30px;
+        width: 1345px;
+        background-color: rgb(48, 27, 233);
+        position: fixed;
+        top: 0px;
+
+    }
+    </style>
+</head>
+<body>
+
+    <div class="fixed">
+
+    </div>
+    <div class="main">
+        <div class="b1"></div>
+        <div class="b1"></div>
+        <div class="b1"></div>
+
+    </div>
+    <div class="parent">
+        <div class="child">
+            <div class="child2"></div>
+
+        </div>
+
+    </div>
+</body>
+</html>

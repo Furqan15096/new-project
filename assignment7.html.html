@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .main{
+            background-image: url("road.jpg");
+            height: 300px;
+
+        }
+    
+    .car{
+        /* left: 1px; */
+        position: relative;
+        float: left;
+        left: 10px;
+        transition: left 5s linear 0s;
+        margin-top: 20px;
+        animation-timing-function: ease;
+    }
+    .gif img{
+        height: 270px;
+        width: 330px;
+        float: right;
+        /* background-image: url("road.jpg"); */
+    }
+    .car:hover {
+      /* transform: rotate(90deg); */
+      left: 500px;
+   }
+    
+    </style>
+</head>
+<body>
+
+    <div class="main">
+    <div class="car">
+        <img src="car.JPG" alt="">
+    </div>
+    <div class="gif">
+        <img src="signal.gif" alt="">
+    </div>
+
+</div>
+
+</body>
+</html>
