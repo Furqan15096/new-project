@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body
+        {
+            margin: 0%;
+        }
+        .main{
+            width: 100vw;
+            height: 400px;
+            background-color: rgb(74, 174, 255);
+            /* z-index: 100px; */
+            display: flex;
+        }
+        .text1{
+            margin-top: 20px;
+        }
+       .text1 #text{
+            /* position: relative; */
+            margin-left: 300px;
+            margin-top: 30px;
+            font-size: 25px;
+            font-style:oblique;
+            color: rgb(255, 251, 251); 
+            height: 30px;
+            width:90px;
+        }
+        #butt{
+            background-color: black;
+            height: 35px;
+            width: 95px;
+            border: 1px solid black;
+            border-radius: 5px;
+            /* position: relative; */
+           margin-left: 20px;
+            margin-top: 13px;
+            color: white;
+            font-size: 20px;
+            font-style:oblique;
+        }
+        .link{
+            height: 32px;
+            width: 645px;
+            background-color: rgb(149, 200, 230);
+            /* position: relative; */
+            margin-left: 20px;
+            margin-top: 13px;
+            border: 1px solid rgb(149, 200, 230);
+            border-radius: 5px;
+            display: flex;
+            
+        }
+
+        .link #links li{
+            list-style: none;
+            display: inline;
+            padding-left:20px;  
+            font-style:oblique;
+        }
+        .link #links{
+            margin-left: -58px;
+            margin-top: 7px;
+        }
+        #input{
+            padding-left: 50px;
+            margin-left: 20px;
+            border: 1px solid rgb(149, 200, 230);
+            border-radius: 5px;
+            height: 15px;
+            margin-top:7px; 
+        }
+        #login{
+            margin-top: 7px;
+            padding-left: 7px;
+            font-style: oblique;
+        }
+        .logo{
+            display: flex;
+        }
+        .logo #imge{
+            margin-left: 300px;
+            /* z-index: -100; */
+            margin-top: -300px;
+            height: 300px;
+        }
+      .logo  #mail{
+            position: relative;
+            top: -300px;
+            left: 50px; 
+            color: white;
+            font-style: italic; 
+            font-size: 50px;
+            width: 300px;
+      }
+        .main2{
+            height: 400px;
+            width: 100vw;
+            display: flex;
+            margin: auto;
+        }
+        /* .logo #news{
+            position: relative;
+            top: -300px;
+            left: -120px;
+            font-size: 30px;
+            color: white;
+        }
+        .logo #extra{
+            position: relative;
+            top: -250px;
+            width: 
+            390px;
+
+        } */
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="text1">
+        <b id="text">
+            MailChip
+        </b>
+    </div>
+        <div class="button">
+        <button id="butt">Signup</button>
+    </div>
+    <div class="link">
+        <ul id="links">
+            <li>Picking</li>
+            <li>Features</li>
+            <li>Resources</li>
+            <li>Support</li>
+            <li>Blog</li>
+        </ul>
+        <input type="text" id="input">
+        <b id="login">Login</b>
+    </div>
+</div>
+<div class="main2">
+    <div class="logo">
+            <img src="mon.jpg" alt="" id="imge">
+           <span id="mail">EASY E-MAIL NEWSLETTER</span>
+
+    </div>
+</div>
+</body>
+</html>
